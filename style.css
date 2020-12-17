@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    color: #3f51b5;
+}
+
+.header-text {
+    position: absolute;
+    padding: 30px;
+    background-color: #3f51b5;
+    color: white;
+    margin: 0px;
+    left:0; right:0;
+    height: 50px;
+    padding-left: 230px;
+}
+
+.options-sidebar {
+    position: absolute;
+    background-color: #424242;
+    top: 0;
+    width: 200px;
+    bottom: 0;
+    padding-top: 80px;
+    color: white;
+    padding-left: 15px;
+}
+
+.wrapper {
+    position: absolute;
+    left: 215px;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    background-color: #303030;
+    padding-left: 10vw;
+    color: white;
+    display: flex;
+}
+
+.text {
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+
+.checkbox-parent, .button-parent {
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    inline-size: max-content;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+}
+
+.buttons:hover {
+    background-color: #767a76; 
+    color: white;
+  }
+
+.menus {
+    padding-bottom: 10px;
+}
+
+.checkbox {
+    padding-bottom: 10px;
+}
+
+.output-parent {
+    display: none;
+    margin-left: 150px;
+}
+
+.output {
+    width: 25vw;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}

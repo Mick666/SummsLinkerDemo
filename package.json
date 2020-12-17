@@ -1,0 +1,10 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jquery"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^7.15.0"
+    }
+}
